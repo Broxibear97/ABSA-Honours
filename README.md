@@ -1,4 +1,4 @@
-# ABSA-Honours
+# Aspect Based Sentiment Analysis - University of Dundee Honours Project
 A repository to track the progress of my Honours Project at University of Dundee.
 
 ## What you need
