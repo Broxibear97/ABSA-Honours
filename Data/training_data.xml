@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Reviews>
+    <Review rid="1">
+        <Sentences>
+            <Sentence id="1:0">
+                <Text>I loved the movie.</Text>
+            </Sentence>
+        </Sentences>
+        <Opinions>
+            <Opinion category="MOVIE#GENERAL" polarity="positive"/>
+        </Opinions>
+    </Review>
+
+    <Review rid="2">
+        <Sentences>
+            <Sentence id="2:0">
+                <Text>The casting choice was bad but the movie was still enjoyable.</Text>
+            </Sentence>
+        </Sentences>
+        <Opinions>
+            <Opinion category="MOVIE#GENERAL" polarity="positive"/>
+            <Opinion category="MOVIE#CAST" polarity="negative"/>
+        </Opinions>
+    </Review>
+
+    <Review rid="3">
+        <Sentences>
+            <Sentence id="3:0">
+                <Text>I feel sorry for the actors.</Text>
+            </Sentence>
+            <Sentence id="3:1">
+                <Text>They performed so well despite the poor direction and decision choices by the director.</Text>
+            </Sentence>
+            <Sentence id="3:2">
+                <Text>It's sad that they were not enough to make this movie good.</Text>
+            </Sentence>
+        </Sentences>
+        <Opinions>
+            <Opinion category="MOVIE#GENERAL" polarity="negative"/>
+            <Opinion category="MOVIE#CAST" polarity="positive"/>
+            <Opinion category="MOVIE#DIRECTOR" polarity="negative"/>
+        </Opinions>
+    </Review>
+</Reviews>
