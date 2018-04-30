@@ -1,44 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Reviews>
-    <Review rid="1">
-        <Sentences>
-            <Sentence id="1:0">
-                <Text>I loved the movie.</Text>
-            </Sentence>
-        </Sentences>
-        <Opinions>
-            <Opinion category="MOVIE#GENERAL" polarity="positive"/>
-        </Opinions>
-    </Review>
-
-    <Review rid="2">
-        <Sentences>
-            <Sentence id="2:0">
-                <Text>The casting choice was bad but the movie was still enjoyable.</Text>
-            </Sentence>
-        </Sentences>
-        <Opinions>
-            <Opinion category="MOVIE#GENERAL" polarity="positive"/>
-            <Opinion category="MOVIE#CAST" polarity="negative"/>
-        </Opinions>
-    </Review>
-
-    <Review rid="3">
-        <Sentences>
-            <Sentence id="3:0">
-                <Text>I feel sorry for the actors.</Text>
-            </Sentence>
-            <Sentence id="3:1">
-                <Text>They performed so well despite the poor direction and decision choices by the director.</Text>
-            </Sentence>
-            <Sentence id="3:2">
-                <Text>It's sad that they were not enough to make this movie good.</Text>
-            </Sentence>
-        </Sentences>
-        <Opinions>
-            <Opinion category="MOVIE#GENERAL" polarity="negative"/>
-            <Opinion category="MOVIE#CAST" polarity="positive"/>
-            <Opinion category="MOVIE#DIRECTOR" polarity="negative"/>
-        </Opinions>
-    </Review>
-</Reviews>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<sentences>
+    <sentence id="1">
+        <text>The movie failed to impress.</text>
+        <aspectTerms>
+            <aspectTerm term="movie" polarity="negative" from="4" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="2">
+        <text>The cast choices sucked and the director should quit his job</text>
+        <aspectTerms>
+            <aspectTerm term="cast" polarity="negative" from="4" to="8"/>
+            <aspectTerm term="director" polarity="negative" from="32" to="40"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="3">
+        <text>Saying that, the music was amazing.</text>
+        <aspectTerms>
+            <aspectTerm term="music" polarity="positive"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="4">
+        <text>Cool movie.</text>
+        <aspectTerms>
+            <aspectTerm term="movie" polarity="positive"/>
+        </aspectTerms>
+    </sentence>
+</sentences>
